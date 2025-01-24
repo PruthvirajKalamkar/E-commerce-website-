@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="#" class="logo">E-Shop</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a>
+                    <ul class="dropdown">
+                        <li><a href="#mens">Men's Wear</a></li>
+                        <li><a href="#womens">Women's Wear</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                    </ul>
+                </li>
+                <li><a href="cart.html">Cart</a></li> 
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <div class="nav-icons">
+            <input type="text" placeholder="Search..." class="search-bar">
+            <a href="cart.html" class="cart-icon">Cart <span id="cart-count">0</span></a> 
+        <div class="toggle-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Style</h1>
+            
+            <a href="#shop" class="cta">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-icons">
+            <div class="category-item">
+                <div class="image-slider" id="mensSlider">
+                    <img src="mens1.jpg" alt="Men's Wear 1">
+                    <img src="mens2.jpg" alt="Men's Wear 2">
+                    <img src="mens3.jpg" alt="Men's Wear 3">
+                </div>
+                Men's Wear
+            </div>
+            <div class="category-item">
+                <div class="image-slider" id="womensSlider">
+                    <img src="womens1.jpg" alt="Women's Wear 1">
+                    <img src="womens2.jpg" alt="Women's Wear 2">
+                    <img src="womens3.jpg" alt="Women's Wear 3">
+                </div>
+                Women's Wear
+            </div>
+            <div class="category-item">
+                <div class="image-slider" id="accessoriesSlider">
+                    <img src="accessories1.jpg" alt="Accessories 1">
+                    <img src="accessories2.jpg" alt="Accessories 2">
+                    <img src="accessories3.jpg" alt="Accessories 3">
+                </div>
+                Accessories
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-products" class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product" id="product1">
+                <img src="n1.png" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$10.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="n2.png" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$15.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" id="product3">
+                <img src="n3.png" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" id="product4">
+                <img src="n4.png" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>$25.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" id="product5">
+                <img src="n5.png" alt="Product 5">
+                <h3>Product 5</h3>
+                <p>$30.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" id="product6">
+                <img src="n6.png" alt="Product 6">
+                <h3>Product 6</h3>
+                <p>$35.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" id="product7">
+                <img src="n7.png" alt="Product 7">
+                <h3>Product 7</h3>
+                <p>$40.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" id="product8">
+                <img src="n8.png" alt="Product 8">
+                <h3>Product 8</h3>
+                <p>$45.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: kalamkar333@gmail.com</p>
+                <p>Phone: +1 234 567 890</p>
+                <p>Instagram: @chilly_pepper</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
